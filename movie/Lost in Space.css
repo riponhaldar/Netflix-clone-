@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.img{
+	padding-left: 20px;
+}
+.navbar{
+	background-color:black;
+}
+.nav-link{
+	color:white;
+	text-decoration: none;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.navbar-nav{
+	margin-left: 10%;
+}
+ .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background:none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:red;
+    text-decoration:none;
+    }
+.log a{
+	color:#D8D6D6;
+	text-decoration: none;
+}
+.log a:hover{
+	color: white;
+	cursor:pointer;
+}
+/*IMG START **************/
+.stranger{background-color: black;
+height:0%;}
+.bg-img {
+  
+  background-image:url(netflix-lost-in-space_1523256219622.webp);
+
+ width:auto;
+ height:100%;
+   margin-right: 20px;
+	margin-left: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	
+}
+.text{
+height: 700px;
+	background:linear-gradient(to top right, black 33%, rgba(204,204,204,0.42) 60%,rgba(255,255,255,0.00)80%);
+	
+	color: white;
+	
+}
+.text h1{
+	font-size: 35px;
+	padding-top: 7%;
+	
+}
+.text p{
+	font-size: 20px;
+	text-align: left;
+}
+.text .big{
+	font-size: 50px;
+	font-family:"abril-fatface";
+	
+	
+}
+
+/*****dfgdfhg*/
+.step3{
+	background-color: black;
+}
+.text2{
+	
+	color: white;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+.video{
+	margin: 1px auto;
+}
+.video h1,p{
+	text-align: center;
+	color: white;
+}
+

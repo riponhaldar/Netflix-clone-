@@ -1,0 +1,259 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.img{
+	padding-left: 20px;
+}
+.navbar{
+	background-color:black;
+}
+.nav-link{
+	color:white;
+	text-decoration: none;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.navbar-nav{
+	margin-left: 10%;
+}
+ .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background:none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:red;
+    text-decoration:none;
+    }
+.log a{
+	color:#D8D6D6;
+	text-decoration: none;
+}
+.log a:hover{
+	color: white;
+	cursor:pointer;
+}
+/*VIDEO */
+
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+/*VIDEO END */
+/*slider part*/
+.page-wrapper{
+	background-color: black;
+}
+.post-slider{
+	position: relative;
+	
+}
+.post-slider .slider-title{
+	text-align: left;
+	margin-left: 50px;
+	font-family: 'Courgette', cursive;
+	color: white;
+}
+.post-slider .next{
+	position: absolute;
+	top:55%;
+	right: 5px;
+	font-size: 1em;
+	color: red;
+	cursor: pointer;
+}
+.post-slider .prev{
+	position: absolute;
+	top:55%;
+	left: 5px;
+	font-size: 1em;
+	color: red;
+	cursor: pointer;
+}
+.post-slider .post-wrapper{
+	width: 95%;
+	height: 270px;
+	margin: 0px auto;
+	overflow: hidden;
+	padding: 8px 0px 10px 0px;
+}
+.post-slider .post-wrapper .post{
+	width: 300px;
+	height: 230px;
+	margin:  0px 10px;
+	display: inline-block;
+	background: black;
+	border-radius: 5px;
+}
+.post-slider .post-wrapper .post .post-info a{
+	
+
+	text-align: center;
+	
+	color: white;
+	text-decoration: none;
+ 
+}
+.post-slider .post-wrapper .post .slider-img{
+	width: 100%;
+	height: 180px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+
+
+/*slider part*/
+.page-wrapper1{
+	background-color: black;
+}
+.post-slider1{
+	position: relative;
+	
+}
+.post-slider1 .slider-title1{
+	text-align: left;
+	margin-left: 50px;
+	font-family: 'Courgette', cursive;
+	color: white;
+}
+.post-slider1 .lnext{
+	position: absolute;
+	top:55%;
+	right: 5px;
+	font-size: 1em;
+	color: red;
+	cursor: pointer;
+}
+.post-slider1 .lprev{
+	position: absolute;
+	top:55%;
+	left: 5px;
+	font-size: 1em;
+	color: red;
+	cursor: pointer;
+}
+.post-slider1 .post-wrapper1{
+	width: 95%;
+	height: 270px;
+	margin: 0px auto;
+	overflow: hidden;
+	padding: 8px 0px 10px 0px;
+}
+.post-slider1 .post-wrapper1 .post{
+	width: 300px;
+	height: 230px;
+	margin:  0px 10px;
+	display: inline-block;
+	background: black;
+	border-radius: 5px;
+}
+.post-slider1 .post-wrapper1 .post .post-info a{
+
+
+	text-align: center;
+	
+	color: white;
+	text-decoration: none;
+ 
+}
+.post-slider1 .post-wrapper1 .post .slider-img{
+	width: 100%;
+	height: 180px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+/*slider part*/
+.page-wrapper12{
+	background-color: black;
+}
+.post-slider12{
+	position: relative;
+	
+}
+.post-slider12 .slider-title12{
+	text-align: left;
+	margin-left: 50px;
+	font-family: 'Courgette', cursive;
+	color: white;
+}
+.post-slider12 .knext{
+	position: absolute;
+	top:55%;
+	right: 5px;
+	font-size: 1em;
+	color: red;
+	cursor: pointer;
+}
+.post-slider12 .kprev{
+	position: absolute;
+	top:55%;
+	left: 5px;
+	font-size: 1em;
+	color: red;
+	cursor: pointer;
+}
+.post-slider12 .post-wrapper12{
+	width: 95%;
+	height:270px;
+	margin: 0px auto;
+	overflow: hidden;
+	padding: 8px 0px 10px 0px;
+}
+.post-slider12 .post-wrapper12 .post{
+	width: 300px;
+	height: 230px;
+	margin:  0px 10px;
+	display: inline-block;
+	background: black;
+	border-radius: 5px;
+}
+.post-slider12 .post-wrapper12 .post .post-info a{
+text-align: center;
+	color: white;
+	text-decoration: none;
+ }.post-slider12 .post-wrapper12 .post .slider-img{
+	width: 100%;
+	height: 180px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}

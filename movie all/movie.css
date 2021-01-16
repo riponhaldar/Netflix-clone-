@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.img{
+	padding-left: 20px;
+}
+.navbar{
+	background-color:black;
+}
+.nav-link{
+	color:white;
+	text-decoration: none;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.navbar-nav{
+	margin-left: 10%;
+}
+ .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background:none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:red;
+    text-decoration:none;
+    }
+.log a{
+	color:#D8D6D6;
+	text-decoration: none;
+}
+.log a:hover{
+	color: white;
+	cursor:pointer;
+}
+.dropdown-item{
+	background-color: black;
+}
+.carousel-indicators .fa-chevron-left{
+	top:50%;
+}
+
+
+.section-1 .blog-title {
+	color: raba(0,0,0, 0.59);
+}
+.card {
+	height: 100px;
+	width: auto;
+}
+
